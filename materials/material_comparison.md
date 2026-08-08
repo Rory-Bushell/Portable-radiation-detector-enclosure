@@ -2,7 +2,7 @@
 
 Selected via Granta EduPack Level 3 Eco Design database, using a
 Fracture Toughness vs. Density Ashby chart methodology, filtered against
-component-specific density, toughness, temperature, and price constraints.
+component-specific density, fracture toughness, operating temperature bounds, and price constraints.
 
 ## Main shell — PP (homopolymer, 30% glass fibre)
 
