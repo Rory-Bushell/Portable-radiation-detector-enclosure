@@ -55,9 +55,9 @@ component's material:
 
 | Component | Chart |
 |---|---|
-| Main shell | `materials/Ashby-chart-Main-Casing.png` |
-| Threaded cap | `materials/Ashby-chart-Opening-hatch.png` |
-| Sensor window | `materials/Ashby-chart-Radiation-window.png` |
+| Main shell | ![Main shell Ashby chart](materials/Ashby-chart-Main-Casing.png) |
+| Threaded cap | ![Threaded cap Ashby chart](materials/Ashby-chart-Opening-hatch.png) |
+| Sensor window | ![Sensor window Ashby chart](materials/Ashby-chart-Radiation-window.png) |
 
 ## Repository contents
 
