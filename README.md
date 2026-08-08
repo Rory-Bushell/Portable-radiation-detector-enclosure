@@ -35,6 +35,37 @@ window functional.
   [`materials/material_comparison.md`](materials/material_comparison.md)
   for full Granta EduPack justification
 
+## Environmental sealing
+
+Designed against **IP66/67** (dust-tight, protected against water jets and
+temporary immersion) — the standard ingress protection benchmark for
+outdoor, field-deployed electronics — using three sealing points:
+
+- **O-ring seal on the sensor window**, bonded into the shell, keeping the
+  detection face permanently watertight without relying on a removable joint
+- **O-rings under each of the three control buttons**, compressed by the
+  button against the shell to seal the button aperture while still allowing
+  tactile actuation
+- **O-ring seal on the threaded USB-C cap**, compressed as the cap is
+  screwed down, sealing the only access point into the electronics
+  compartment
+
+Keeping every seal a static, compressed O-ring joint (rather than an
+adhesive or gasket-tape seal) means each one can be inspected and, if
+necessary, replaced individually without affecting the others.
+
+## Engineering trade-offs
+
+Key constraints encountered during the design, and the decisions made to
+address them:
+
+| Constraint | Decision | Trade-off accepted |
+|---|---|---|
+| Sensor needs radiation reaching it from all sides | Window wall reduced to 1.5mm vs. 4mm shell | Window is the weakest point for impact — mitigated by keeping it small and centrally supported |
+| 11.34mm internal clearance between sensor and base | Switched from AA cells to a 40x30x5mm LiPo pouch cell | Lost field battery-swapping; gained a much smaller footprint, recharged via sealed USB-C |
+| Cap needs repeated hand-tightening without cross-threading | Coarse M24 x 1.5 ISO metric thread, non-directional glass-mat-reinforced PP | Slightly heavier/less optimised than a fine-pitch thread, but far more tolerant of field handling |
+| Sensing element (SBM-20) is a hobbyist-grade component, not an industrial detector | Used as a realistic stand-in, with the limitation stated explicitly (see Note on scope) | Project demonstrates enclosure design methodology rather than detector performance |
+
 ## Renders
 
 | View | Description |
