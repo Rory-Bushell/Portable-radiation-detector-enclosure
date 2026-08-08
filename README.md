@@ -51,13 +51,13 @@ Full property data and justification per component:
 [`materials/material_comparison.md`](materials/material_comparison.md)
 
 Ashby charts (Fracture Toughness vs. Density) used to shortlist each
-component's material:
+component's material — click a link to view the chart at full size:
 
 | Component | Chart |
 |---|---|
-| Main shell | ![Main shell Ashby chart](materials/Ashby-chart-Main-Casing.png) |
-| Threaded cap | ![Threaded cap Ashby chart](materials/Ashby-chart-Opening-hatch.png) |
-| Sensor window | ![Sensor window Ashby chart](materials/Ashby-chart-Radiation-window.png) |
+| Main shell | [View chart](materials/Ashby-chart-Main-Casing.png) |
+| Threaded cap | [View chart](materials/Ashby-chart-Opening-hatch.png) |
+| Sensor window | [View chart](materials/Ashby-chart-Radiation-window.png) |
 
 ## Repository contents
 
